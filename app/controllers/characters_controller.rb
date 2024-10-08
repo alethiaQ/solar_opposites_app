@@ -4,4 +4,7 @@ class CharactersController < ApplicationController
     @characters = Character.all
   end
 
+  def show 
+    @character = Character.find(params[:id])
+  end
 end
