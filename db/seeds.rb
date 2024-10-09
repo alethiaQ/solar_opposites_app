@@ -14,3 +14,8 @@ terry = Character.create!(name: "Terry", main_traits: "Pupa Specialist, open-min
 jesse = Character.create!(name: "Jesse", main_traits: "Replicant of Terry, Chronicler, multiple ex-boyfriends living on an island (flex), uses she/her pronouns, caring, compassionate, loves humans, wants to fit in, cute", metadata: "Shlorpian, from Planet Shlorp, daughter-ish figure of Korvo and Terry, sister-ish figure to Yumyulack, Green, Plant")
 
 yumyulack = Character.create!(name: "Yumyulack", main_traits: "Replicant of Korvo, Violent, sly, pro sci-fi, he/him, loves Sigourney Weaver, pessimistic, has experienced B.D.E", metadata: "Shlorpian, from Planet Shlorp, son-ish figure of Korvo and Terry, brother-ish figure to Jesse, Blue, Plant")
+
+yumyulack.level = 1
+jesse.level = 1
+terry.level = 1
+korvo.level = 1 
