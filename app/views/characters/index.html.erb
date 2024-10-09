@@ -1,6 +1,8 @@
-<% @characters.each do |character| %>
-    <div>
-        <h2> <%= character.name%> </h2> ---- 
-        <%= character.main_traits%>
-    </div>
-<%end%>
+ <div class="main-page-list-chars">
+    <% @characters.each do |character| %>
+        <h2> <%= character.name%> </h2>
+        <%= image_tag("characters/#{character.name}/level_one.jpeg")%>
+        <p> <%= character.main_traits %> </p>
+
+    <%end%>
+</div>
