@@ -1384,3 +1384,74 @@ Processing by CharactersController#index as HTML
 Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.7ms | Allocations: 6989)
 
 
+Started GET "/characters" for ::1 at 2024-10-10 11:43:53 -0400
+  
+LoadError (cannot load such file -- /Users/alethiaquintero/solar_opposites_island/config/routes.rb):
+  
+railties (6.0.2.1) lib/rails/application/routes_reloader.rb:41:in `load'
+railties (6.0.2.1) lib/rails/application/routes_reloader.rb:41:in `block in load_paths'
+railties (6.0.2.1) lib/rails/application/routes_reloader.rb:41:in `each'
+railties (6.0.2.1) lib/rails/application/routes_reloader.rb:41:in `load_paths'
+railties (6.0.2.1) lib/rails/application/routes_reloader.rb:20:in `reload!'
+railties (6.0.2.1) lib/rails/application/routes_reloader.rb:30:in `block in updater'
+activesupport (6.0.2.1) lib/active_support/file_update_checker.rb:83:in `execute'
+railties (6.0.2.1) lib/rails/application/routes_reloader.rb:10:in `execute'
+railties (6.0.2.1) lib/rails/application/finisher.rb:197:in `block (2 levels) in <module:Finisher>'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:429:in `instance_exec'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:607:in `block (2 levels) in default_terminator'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:606:in `catch'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:606:in `block in default_terminator'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+activesupport (6.0.2.1) lib/active_support/execution_wrapper.rb:111:in `run!'
+activesupport (6.0.2.1) lib/active_support/reloader.rb:114:in `run!'
+activesupport (6.0.2.1) lib/active_support/execution_wrapper.rb:73:in `block in run!'
+activesupport (6.0.2.1) lib/active_support/execution_wrapper.rb:70:in `tap'
+activesupport (6.0.2.1) lib/active_support/execution_wrapper.rb:70:in `run!'
+activesupport (6.0.2.1) lib/active_support/reloader.rb:63:in `run!'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.9) lib/rack/method_override.rb:24:in `call'
+rack (2.2.9) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.9) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/characters" for ::1 at 2024-10-10 11:48:20 -0400
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CharactersController#index as HTML
+  [1m[36mCharacter Load (0.8ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/controllers/characters_controller.rb:5:in `index'
+Completed 200 OK in 34ms (Views: 13.5ms | ActiveRecord: 1.7ms | Allocations: 6883)
+
+
