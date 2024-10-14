@@ -8,6 +8,7 @@ Rails version: 6.0.2
 
 Frontend: 
 React version: 18.3.1
+Re-usable components: [text](https://ui.shadcn.com/docs)
 
 # Get started 
 ```console
